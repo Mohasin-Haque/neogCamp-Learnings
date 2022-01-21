@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: beige;
+    max-width: 350px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 2rem;
+    /* padding: 1rem; */
+}
+
+.header{
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.author{
+    color: #ca6868;
+    padding: 2px;
+}
+
+.image{
+   width: 350px;
+   height: 200px;
+}
+
+.content{
+    margin: 10px; 
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin: 10px;
+}
