@@ -105,3 +105,44 @@ img{
     cursor: pointer;
     margin: 2px 20px;
 }
+
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2.5rem;
+    margin-right: 1.5rem;
+}
+
+.container-four{
+    background-color: beige;
+    max-width: 350px;
+    /*  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;*/
+    /* flex-wrap: wrap; */
+    margin: 2rem;
+}
+
+.container-five{
+    background-color: beige;
+    max-width: 350px;
+}
+
+.above-five{
+    display: flex;
+}
+
+.image-five{
+    width: 150px;
+    height: 100px;
+}
+
+.actions-five{
+    max-width: 350px;
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    margin: 10px 15px 10px 15px;
+    padding: 5px;
+}
