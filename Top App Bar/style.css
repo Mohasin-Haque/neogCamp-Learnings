@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: aqua;
+    border: 1px solid red;
+}
+
+.top-app-bar__row{
+    display: flex;
+    flex-direction: row;
+    background-color: blueviolet;
+}
+
+.top-app-bar__section{
+    background-color: black;
+}
+
+.icon-button{
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.top-app-bar__title{
+    font-size: rem;
+    color: magenta;
+}

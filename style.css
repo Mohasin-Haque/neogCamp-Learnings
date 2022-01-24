@@ -6,10 +6,17 @@
 }
 
 body{
-    background-color: antiquewhite;
+    background-color: rgb(235, 210, 178);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -31,17 +38,17 @@ body{
 
 .author-one{
     padding: 2px;
-    margin: 5px;
+    margin: 5px;    
 }
 
-.image-one{
-   width: 350px;
-   height: 200px;
-}
+/* .image-div{
+    height: 13rem;
+    width: 22rem;
+    border: 1px solid red;
+} */
 
 .content-one{
-    margin: 8px 
-
+    margin: 8px;
 }
 
 /* CSS for Card-3 */
@@ -49,11 +56,13 @@ body{
     background-color: white;
     box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.1);
     width: 22rem;
+    border-radius: 1rem;
 }
 
-img{
+.image{
     height: 13rem;
     width: 22rem;
+    border-radius: 1rem 1rem 0 0;
 }
 
 .heading{
@@ -70,8 +79,9 @@ img{
 .actions{
     display: flex;
     justify-content: space-between;
-    margin: 10px 15px 10px 15px;
+    margin: .5rem 1rem 1rem 1rem;
     padding: 5px;
+    cursor: pointer;
 }
 
 .btn{
@@ -96,6 +106,10 @@ img{
     margin: 10px 10px 10px 15px;
 }
 
+.image-header{
+    border-radius: 0 0 0 0;
+}
+
 .btn-three{
     border: none;
     font-weight: bolder;
@@ -111,22 +125,37 @@ img{
     justify-content: flex-end;
     gap: 2.5rem;
     margin-right: 1.5rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    /* transition: transform 0.2s; */
 }
+
+/* .icons:hover{
+    
+} */
+
 
 .container-four{
     background-color: beige;
     max-width: 350px;
-    /*  display: flex;
+    border-radius: 1rem;
+     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;*/
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     margin: 2rem;
+    box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .container-five{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 1rem;
     background-color: beige;
     max-width: 350px;
+    box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .above-five{
@@ -136,6 +165,7 @@ img{
 .image-five{
     width: 150px;
     height: 100px;
+    border-radius: 1rem 0 0 0;
 }
 
 .actions-five{
@@ -145,4 +175,5 @@ img{
     gap: 2.5rem;
     margin: 10px 15px 10px 15px;
     padding: 5px;
+    cursor: pointer;
 }
