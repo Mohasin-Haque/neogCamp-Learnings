@@ -5,17 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <title>Top App Bar</title>
 </head>
 <body>
-    <header class=" header">
-        <div class="top-app-bar__row">
-          <section class="top-app-bar__section">
-            <button class="icon-button">menu</button><span class="top-app-bar__title">San Francisco, CA</span> </section>
-          <section class="top-app-bar__section top-app-bar__section--align-end">
-            <button class="icon-button material-icons top-app-bar__action-item--unbounded" aria-label="Bookmark this page">bookmark</button>
-          </section>
-        </div>
-      </header>
+  <!-- Short Header -->
+  <h4>Short Header</h4>
+   <header class="header">
+     <div class="container">
+       <div class="hamburgure"><i class="bi bi-list"></i></div>
+       <div class="nav-logo">San Fransisco, CS</div>
+       <div class="bookmark"><i class="bi bi-bookmark-fill"></i></div>
+     </div>
+   </header>
+
+   <!-- Trying Again -->
+   <h4>Standard Header</h4>
+   <header class="header">
+     <div class="container">
+       <div class="hamburgure"><i class="bi bi-list"></i></div>
+       <div class="nav-logo nav-logo-std">San Fransisco, CS</div>
+       <div class="icons">
+        <div class="bookmark"><i class="bi bi-download"></i></div>
+        <div class="bookmark"><i class="bi bi-printer-fill"></i></div>
+        <div class="bookmark"><i class="bi bi-bookmark-fill"></i></div>
+      </div>
+       </div>
+       
+   </header>
+
+   <!-- Short, Always Collapsed Header -->
+   <h4>Short, Always Collapsed Header</h4>
+   <header class="header">
+     <div class="container_short-collapse">
+       <div class="hamburgure"><i class="bi bi-list"></i></div>
+       <div class="icons">
+        <div class="bookmark"><i class="bi bi-bookmark-fill"></i></div>
+      </div>
+       </div>
+       
+   </header>
+
+   <!-- Prominent -->
+   <h4>Prominent Header</h4>
+   <header class="header">
+     <div class="container container-prominent">
+       <div class="hamburgure hamburgure-prominent"><i class="bi bi-list"></i></div>
+       <div class="nav-logo nav-logo-prominent">San Fransisco, CS</div>
+       <div class="icons icons-prominent">
+        <div class="bookmark"><i class="bi bi-download"></i></div>
+        <div class="bookmark"><i class="bi bi-printer-fill"></i></div>
+        <div class="bookmark"><i class="bi bi-bookmark-fill"></i></div>
+      </div>
+       </div>       
+   </header>
+ 
 </body>
 </html>

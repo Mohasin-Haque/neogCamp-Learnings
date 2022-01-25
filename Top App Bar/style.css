@@ -2,38 +2,119 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.header{
-    display: flex;
-    flex-direction: row;
-    /* justify-content: center; */
-    /* align-items: center; */
-    background-color: aqua;
-    border: 1px solid red;
-}
-
-.top-app-bar__row{
-    display: flex;
-    flex-direction: row;
-    background-color: blueviolet;
-}
-
-.top-app-bar__section{
-    background-color: black;
-}
-
-.icon-button{
-    display: flex;
-    justify-content: space-around;
-}
-
-button{
+.container{
     display: flex;
     justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 8px;
+    background: blueviolet;
+    margin: 1rem;
 }
 
-.top-app-bar__title{
-    font-size: rem;
-    color: magenta;
+.hamburgure{
+    padding: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+} 
+
+.hamburgure:hover{
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+}
+
+
+.nav-logo{
+    padding: 1rem;
+    color: white;
+}
+
+.bookmark{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    padding: 8px;
+    color: white;
+}
+
+.bookmark:hover{
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+}
+
+/* Trying */
+.icons{
+    display: flex;
+    margin-left: auto;
+}
+
+/* standard header */
+/* .links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+    list-style: none;
+    margin-left: auto;
+} */
+
+.navbar{
+    background-color:blueviolet ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: #ffffff;
+}
+
+.hamburgure-standard{
+    /* margin: 0px; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    cursor: pointer;
+}
+
+.hamburgure-standard:hover{
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+}
+
+/* Short, Collapse Header */
+.container_short-collapse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    background: blueviolet;
+    margin: 1rem;
+    max-width: fit-content;
+    border-radius: 0 0 35% ;
+}
+
+/* Prominent */
+.nav-logo-prominent{
+    margin-top: 3rem;
+    font-size: 25px
+}
+
+.container-prominent{
+    padding: 5px 5px 0px 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
