@@ -41,12 +41,6 @@ body{
     margin: 5px;    
 }
 
-/* .image-div{
-    height: 13rem;
-    width: 22rem;
-    border: 1px solid red;
-} */
-
 .content-one{
     margin: 8px;
 }
@@ -127,13 +121,7 @@ body{
     margin-right: 1.5rem;
     margin-bottom: 1rem;
     cursor: pointer;
-    /* transition: transform 0.2s; */
 }
-
-/* .icons:hover{
-    
-} */
-
 
 .container-four{
     background-color: beige;

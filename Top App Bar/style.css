@@ -121,7 +121,7 @@
 .header-fixed{
     display: flex;
     flex-direction: column;
-    position: relative;
+    position: sticky;
     justify-content: space-between;
     width: 100%;
 }
@@ -130,6 +130,9 @@
     margin-left: auto ;
 }
 
+/* .container-fixed{
+    position: sticky;
+} */
 .container-dense{
     padding: 0;
 }
@@ -142,5 +145,5 @@
     margin: 1rem;
     border: 1px solid black;
     height: 15rem;
-    overflow: hidden;
+    overflow-y: auto;
 }
