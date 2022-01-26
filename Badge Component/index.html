@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badge Component</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <p>this is image</p>
+    <img src="./badge.png" alt="badge image failed to load">
+
+    <div class="badge_container-main">
+        <!-- Text with a badge -->
+        <div class="badge_container">
+            <div class="text_with_badge">Text with a badge<span class="badge-small">4</span></div>
+        </div>
+        <!-- Text with a large Badge -->
+        <div class="badge_container">
+            <div class="text_with_badge">Text with a badge<span class="badge-small badge-small-large">1</span></div>
+        </div>
+        <!-- Button wioth badge on left -->
+        <div class="badge_container-btn">
+            <div class="content">Button with a badge on the left. . .</div>
+            <div class="btn_and_badge"> <button class="badge-on-left-btn">Action</button><span
+                    class="left-badge">8</span>
+            </div>
+        </div>
+        <!-- Button toggles badge visibility -->
+        <div class="badge_container-btn">
+            <div class="content">Button toggles badge visibility . .</div>
+            <div class="btn_and_badge-visibility"> <button class="badge-on-btn-visibility">Hide</button><span
+                    class="visibility-badge">7</span>
+            </div>
+        </div>
+
+    <!-- Icon with a badge -->
+    <div class="badge_container">
+        <div class="text_with_badge">Icon with a badge . . 
+            <div class="icon"><i class="bi bi-house-door-fill home-icon"></i></div>
+            <span class="badge-icon">4</span></div>
+    </div>
+
+
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.badge_container-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    margin: 1rem;
+}
+
+.text_with_badge{
+    display: flex; /*for centering text*/
+    align-items: center;
+    margin: 1rem;
+}
+
+.badge-small{
+    background-color: blueviolet;
+    height: 1.5rem;
+    width: 1.5rem;
+    display: flex; /*for centering text*/
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    position: relative;
+    bottom: 10px;
+}
+
+.badge-small-large{
+    height: 2rem;
+    width: 2rem;
+    right: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.badge_container-btn{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+.badge-on-left-btn{
+    background-color: blueviolet;
+    padding:10px 15px ;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+}
+
+ .left-badge{
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     border-radius: 50%;
+    position: relative;
+    bottom: 1rem;
+    right: 5.5rem;
+} 
+
+.btn_and_badge{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+}
+
+/* btn with visibility */
+
+.btn_and_badge-visibility{
+    display: flex;
+    /* padding: 1rem; */
+    align-items: center;
+}
+
+.badge-on-btn-visibility{
+    padding:10px 15px ;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    color: black;
+    position: relative;    
+}
+
+.visibility-badge{
+    background-color: blueviolet;
+    height: 1.5rem;
+    width: 1.5rem;
+    display: flex; /*for centering text*/
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    position: relative;
+    bottom: 1.1rem;
+    right: 15px;    
+}
+/* icon with badge */
+.icon{
+    font-size:22px;
+}
+
+.badge-icon{
+    background-color: blueviolet;
+    height: 1.5rem;
+    width: 1.5rem;
+    display: flex; /*for centering text*/
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    position: relative;
+    bottom: 15px;
+    right: 10px;
+}
