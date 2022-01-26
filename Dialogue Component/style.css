@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    background-color: antiquewhite;
+}
+
+.container{
+    border: 1px solid red;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 300px;
+    height: 150;
+    background-color: white;
+}
+
+/* .content{
+
+} */
+
+.heading{
+    margin-bottom: 1rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 5px;
+}
+
+.button{
+    border: none;
+    font-size: 16px;
+}
+
+.button-yes{
+    color: red;
+}
+
+.button-yes:hover{
+    font-weight: bold;
+}
+
+.button-no{
+    color: green;
+}
+
+.button-no:hover{
+    font-weight: bold;
+}
