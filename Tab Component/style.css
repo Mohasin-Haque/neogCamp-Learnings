@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* border: 1px solid red; */
+    border-bottom: 2px solid blueviolet;
+}
+
+.tab{
+    /* border: 1px solid green; */
+    padding: 1rem;
+    display: inline-block;
+    
+}

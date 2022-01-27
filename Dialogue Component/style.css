@@ -5,25 +5,22 @@
 }
 
 body{
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
     margin: 2rem;
-    background-color: antiquewhite;
+    background-color: grey;
 }
 
 .container{
-    border: 1px solid red;
-    border-radius: 1rem;
+    border-radius: 10px;
     padding: 1rem;
-    width: 300px;
-    height: 150;
+    width: 15rem;
     background-color: white;
 }
-
-/* .content{
-
-} */
 
 .heading{
     margin-bottom: 1rem;
@@ -34,7 +31,7 @@ body{
     justify-content: flex-end;
     align-items: center;
     gap: 1.5rem;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .button{
@@ -44,6 +41,7 @@ body{
 
 .button-yes{
     color: red;
+    background-color: white;
 }
 
 .button-yes:hover{
@@ -52,8 +50,34 @@ body{
 
 .button-no{
     color: green;
+    background-color: white;
 }
 
 .button-no:hover{
     font-weight: bold;
+}
+
+.buttons-stacked{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 2rem;
+}
+
+.items{
+    list-style: none;
+}
+
+.item{
+    margin: 1rem;
+    margin-left: auto;
+}
+
+.items-scroll{
+    overflow: scroll;
+    height: 10rem;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-bottom: 1rem;
 }

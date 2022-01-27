@@ -1,23 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <title>Dialogue Component</title>
 </head>
+
 <body>
+    <!-- Alert box with description -->
     <div class="container">
         <div class="content">
             <h3 class="heading">Do you want to Exit?</h3>
-            <p class="description">Please confirm that you really want to exit from this wonderfull app. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, ipsam.</p>
+            <p class="description">Please confirm that you really want to exit from this wonderfull app. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Soluta, ipsam.</p>
         </div>
         <div class="buttons">
             <button class="button button-yes">Yes</button>
             <button class="button button-no">No</button>
         </div>
 
+    </div>
+
+    <!--Alert box with title -->
+
+    <div class="container">
+        <div class="content">
+            <h3 class="heading">Do you want to Exit?</h3>
+            <p class="description">Dialogue body text</p>
+        </div>
+        <div class="buttons">
+            <button class="button button-yes">Yes</button>
+            <button class="button button-no">No</button>
+        </div>
+    </div>
+    <!-- Alert without title -->
+    <div class="container">
+        <div class="content">
+            <!-- <h3 class="heading">Do you want to Exit?</h3> -->
+            <p class="description">Dialogue body text</p>
+        </div>
+        <div class="buttons">
+            <button class="button button-yes">Yes</button>
+            <button class="button button-no">No</button>
+        </div>
+    </div>
+
+    <!-- Alert with title - Stacked -->
+    <div class="container">
+        <div class="content">
+            <!-- <h3 class="heading">Do you want to Exit?</h3> -->
+            <p class="description">Dialogue body text</p>
+        </div>
+        <div class="buttons buttons-stacked">
+            <button class="button button-yes">Yes</button>
+            <button class="button button-no">No</button>
+        </div>
+    </div>
+
+    <!-- Simple Dialogue Box -->
+    <div class="container">
+        <div class="content">
+            <h3 class="heading">Do you want to Exit?</h3>
+            <!-- <p class="description">Dialogue body text</p> -->
+        </div>
+        <ul class="items">
+            <li class="item item-one"><i class="bi bi-house-door-fill home-icon"></i> Item 1</li>
+            <li class="item item-two"><i class="bi bi-house-door-fill home-icon"></i> Item 2</li>
+            <li class="item item-three"><i class="bi bi-house-door-fill home-icon"></i> Item 3</li>
+        </ul>
+    </div>
+
+    <!-- Confirmation box -->
+    <div class="container">
+        <div class="content">
+            <h3 class="heading">Do you want to Exit?</h3>
+            <!-- <p class="description">Dialogue body text</p> -->
+        </div>
+        <ul class="items items-scroll">
+            <li class="item item-one">
+                <input type="radio" name="items" class="item-input">
+                <i class="bi bi-house-door-fill home-icon"></i> Item 1</li>
+            <li class="item item-two">
+                <input type="radio" name="items" class="item-input">
+                <i class="bi bi-house-door-fill home-icon"></i> Item 2</li>
+            <li class="item item-three">
+                <input type="radio" name="items" class="item-input">
+                <i class="bi bi-house-door-fill home-icon"></i> Item 3</li>
+            <li class="item item-four">
+                <input type="radio" name="items" class="item-input">
+                <i class="bi bi-house-door-fill home-icon"></i> Item 4</li>
+            <li class="item item-five">
+                <input type="radio" name="items" class="item-input">
+                <i class="bi bi-house-door-fill home-icon"></i> Item 5</li>
+            <li class="item item-six">
+                <input type="radio" name="items" class="item-input">
+                <i class="bi bi-house-door-fill home-icon"></i> Item 6</li>
+        </ul>
+        <div class="buttons">
+            <button class="button button-yes">Yes</button>
+            <button class="button button-no">No</button>
+        </div>
+    </div>
+
+    <!-- Confirmation box - Stacked -->
+    <div class="container">
+        <div class="content">
+            <h3 class="heading">Do you want to Exit?</h3>
+            <!-- <p class="description">Dialogue body text</p> -->
+        </div>
+        <ul class="items items-scroll">
+            <li class="item item-one">
+                <input type="radio" name="items" class="item-input">
+                <i class="bi bi-house-door-fill home-icon"></i> Item 1</li>
+            <li class="item item-two">
+                <input type="radio" name="items" class="item-input">
+                <i class="bi bi-house-door-fill home-icon"></i> Item 2</li>
+            <li class="item item-three">
+                <input type="radio" name="items" class="item-input">
+                <i class="bi bi-house-door-fill home-icon"></i> Item 3</li>
+            <li class="item item-four">
+                <input type="radio" name="items" class="item-input">
+                <i class="bi bi-house-door-fill home-icon"></i> Item 4</li>
+            <li class="item item-five">
+                <input type="radio" name="items" class="item-input">
+                <i class="bi bi-house-door-fill home-icon"></i> Item 5</li>
+            <li class="item item-six">
+                <input type="radio" name="items" class="item-input">
+                <i class="bi bi-house-door-fill home-icon"></i> Item 6</li>
+        </ul>
+        <div class="buttons buttons-stacked">
+            <button class="button button-yes">Yes</button>
+            <button class="button button-no">No</button>
+        </div>
     </div>
 </body>
 </html>
