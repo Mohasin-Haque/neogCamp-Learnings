@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    margin: 1rem;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.text{
+    margin-right: 1rem;
+    font-size: bold;
+}
+
+.retry{
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.retry:hover{
+    color: violet;
+}
+
+i{
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+}
+
+.undo{
+    margin-left: 2rem;
+    margin-right: 1.8rem;
+}
+
+.actions{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    max-width: 100%;
+}
