@@ -58,23 +58,30 @@
 // *******************IMMUTABILITY***********************
 //Que :- Take an object with your mothers name and your age. Now create an object for your sibling by age difference. 
 
-const mohasin = {
-    mother: "Tahirun",
-    age: 20
-}
+// const mohasin = {
+//     mother: "Tahirun",
+//     age: 20
+// }
 
-const arsh_ul = {
-    ...mohasin,
-    age: mohasin.age - 10
-}
+// const arsh_ul = {
+//     ...mohasin,
+//     age: mohasin.age - 10
+// }
 
-console.log(arsh_ul)
-console.log(mohasin)
+// console.log(arsh_ul)
+// console.log(mohasin)
 
 // Wrong Approach (MUTABLE)
 
-let arsh = mohasin;
-arsh.age = mohasin.age - 10;
-console.log(arsh.age)
-console.log(mohasin.age)
+// let arsh = mohasin;
+// arsh.age = mohasin.age - 10;
+// console.log(arsh.age)
+// console.log(mohasin.age)
 // Here you will get the same output but the data of mohasin object also got change. So it is not a good practice.
+
+// Que :- Take an array with 5 colors. Create another array by adding two more colors to it.
+
+const arr = ["green", "blue", "red", "white", "yellow"];
+const newArr = [...arr, "black", "magenta"]
+
+console.log(newArr)
