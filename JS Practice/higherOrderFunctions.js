@@ -172,28 +172,28 @@
 
 const arr = [1, 3, 5, 2, 22, 11, 9];
 // ****By Reduce****
-const output1 = arr.reduce((acc, curr, index) => {
-    if(index%2){
-        acc += curr;
-        return acc;
-    }else{
-        return acc;
-    }
-}, 0)
+// const output1 = arr.reduce((acc, curr, index) => {
+//     if(index%2){
+//         acc += curr;
+//         return acc;
+//     }else{
+//         return acc;
+//     }
+// }, 0)
 
-console.log(output1)
+// console.log(output1)
 
 // *********By map******** 
-let sum = 0;
+// let sum = 0;
 
-arr.map((item,index)=>{
-   if(index%2!==0){
-       sum = sum + item
-   } 
-   return sum
-})
+// arr.map((item,index)=>{
+//    if(index%2!==0){
+//        sum = sum + item
+//    } 
+//    return sum
+// })
 
-console.log(sum)
+// console.log(sum)
 
 // const findSum = (arr) => {
 //     let sum = 0;
@@ -206,3 +206,17 @@ console.log(sum)
 // }
 // findSum(arr)
 
+// (c). Find the biggest number in the array
+
+// let max = 0;
+// const output = arr.filter((x) => {
+//     x>max ? max = x : x;
+// })
+// console.log(max);
+
+//  (d). Find the numbers divisible by 10
+
+arr.filter((x) => {
+    x%10 === 0 ? x : x;
+    console.log(x)
+})
