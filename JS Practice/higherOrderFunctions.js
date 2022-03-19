@@ -253,11 +253,42 @@ const arr = [1, 3, 5, 2, 22, 11, 9, 10];
 
 // (f). Return an object with sum of all odd numbers and even numbers seperataly.
 
-const reduceObj = (oddEvenObj, num) => num%2===0 ? {...oddEvenObj, even: oddEvenObj.even + num} : {...oddEvenObj, odd: oddEvenObj.odd + num}
+// const reduceObj = (oddEvenObj, num) => num%2===0 ? {...oddEvenObj, even: oddEvenObj.even + num} : {...oddEvenObj, odd: oddEvenObj.odd + num}
 
-const oddEvenObj = { 
-    even: 0, 
-    odd: 0
-}
-console.log(arr.reduce(reduceObj, oddEvenObj))
+// const oddEvenObj = { 
+//     even: 0, 
+//     odd: 0
+// }
+// console.log(arr.reduce(reduceObj, oddEvenObj))
 
+// QUE :- (a). Given any array of strings with similar number of characters.
+
+const input = ["apple", "orange", "mango", "papaya"]
+
+// const output = input.reduce((acc, curr) => {
+//     if(acc[curr.length]){
+//         acc[curr.length] = ++acc[curr.length]
+//     }else{
+//         acc[curr.length] = 1;
+//     }
+//     return acc
+// }, {})
+// console.log(output)
+
+// (b). return an array with the strings which have vowels
+
+// for b. use .map on array and .includes on every entry
+
+// for c. reduce use hoga, dyanamic key use hoga
+
+// const checker = (x) => {
+//     let arrr = []
+
+//     if(x.includes( "a" || "e" || "i" || "o" || "u")){
+//         arrr.push(input)
+//     }
+// }
+
+// const output = input.map(checker)
+
+// console.log(input)
