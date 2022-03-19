@@ -170,7 +170,7 @@
 
 // (b). Find the sum of all numbers at odd indices
 
-const arr = [1, 3, 5, 2, 22, 11, 9];
+const arr = [1, 3, 5, 2, 22, 11, 9, 10];
 // ****By Reduce****
 // const output1 = arr.reduce((acc, curr, index) => {
 //     if(index%2){
@@ -216,7 +216,48 @@ const arr = [1, 3, 5, 2, 22, 11, 9];
 
 //  (d). Find the numbers divisible by 10
 
-arr.filter((x) => {
-    x%10 === 0 ? x : x;
-    console.log(x)
-})
+// let divisibleByTen = 0;
+// arr.map((item)=>{
+//    if(item%10===0){
+//        divisibleByTen = item
+//    } 
+//    return divisibleByTen
+// })
+// console.log(divisibleByTen)
+
+// To get in array
+// const divisibleByTen = num => num % 10 === 0
+// console.log(arr.filter(divisibleByTen))
+// // To get only numbers
+// arr.filter(x => {
+//     x%10===0 ? console.log(x) : 0
+// })
+
+// (e). Return an array of numbers where odd numbers are incremented by one and even numbers are decremented by one
+
+// const output = arr.map((curr) => {
+//     if(curr% 2 === 0){
+//         return curr +1
+//     }
+//     else{
+//         return curr - 1;
+//     }
+// })
+// console.log(output)
+
+
+// const output = arr.map((x)=>{
+//     return x%2===0 ? x+1 : x-1;
+// })
+// console.log(output)
+
+// (f). Return an object with sum of all odd numbers and even numbers seperataly.
+
+const reduceObj = (oddEvenObj, num) => num%2===0 ? {...oddEvenObj, even: oddEvenObj.even + num} : {...oddEvenObj, odd: oddEvenObj.odd + num}
+
+const oddEvenObj = { 
+    even: 0, 
+    odd: 0
+}
+console.log(arr.reduce(reduceObj, oddEvenObj))
+
