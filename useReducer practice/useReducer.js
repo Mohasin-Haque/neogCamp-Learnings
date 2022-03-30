@@ -49,3 +49,26 @@ const numList = [
   }
   const oddAndEvenSumObject = numList.reduce(oddAndEvenSumReducerObject, { even: 0, odd: 0 });
   console.log(oddAndEvenSum);
+
+
+//   Now, remove if/else and use a switch statement instead. Let's see how we write switch in JavaScript: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
+
+// CONGRATULATIONS! You have just written your first reducer. Now, let's just learn how to put it in React and later we'll learn how to put it in Redux. But the basics is this and this only.
+
+function oddAndEvenSumReducerSwitch(accumulator, value) {
+    // write your code here
+    // if (numList.type === "odd") {
+    //   return { ...accumulator, odd: accumulator.odd + value.payload };
+    // } else {
+    //   return { ...accumulator, even: accumulator.even + value.payload };
+    // }
+
+    switch(value.type){
+        case "even" :
+            return { ...accumulator, odd: accumulator.odd + value.payload };
+        case "odd":
+            return {...accumulator, even: accumulator.even + value.payload};
+    }
+  }
+  const oddAndEvenSumSwitch = numList.reduce(oddAndEvenSumReducerSwitch, { even: 0, odd: 0 });
+  console.log(oddAndEvenSum);
