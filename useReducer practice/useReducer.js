@@ -57,12 +57,6 @@ const numList = [
 
 function oddAndEvenSumReducerSwitch(accumulator, value) {
     // write your code here
-    // if (numList.type === "odd") {
-    //   return { ...accumulator, odd: accumulator.odd + value.payload };
-    // } else {
-    //   return { ...accumulator, even: accumulator.even + value.payload };
-    // }
-
     switch(value.type){
         case "even" :
             return { ...accumulator, odd: accumulator.odd + value.payload };
